@@ -5,7 +5,17 @@ import matplotlib.pyplot as plt
 
 import streamlit as st
 
+
+
 st.image("logo.png", width=150)  # or your logo name
+
+# Make logo HD in code
+logo = Image.open("logo.png")
+# Upscale 3x with high quality
+w, h = logo.size
+logo_hd = logo.resize((w*3, h*3), Image.LANCZOS)
+
+st.image(logo_hd, width=350)  
 st.title("KZN Solar Optimization - NASA POWER")
 
 st.set_page_config(page_title="ModelForge Hub - KZN Solar", page_icon="☀️", layout="wide")
