@@ -4,7 +4,11 @@ import math
 import matplotlib.pyplot as plt
 
 import streamlit as st
-
+st.markdown("""
+<style>
+img {image-rendering: -webkit-optimize-contrast;}
+</style>
+""", unsafe_allow_html=True)
 
 
 st.image("logo.png", width=150)  # or your logo name
