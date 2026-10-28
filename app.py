@@ -112,7 +112,7 @@ with col2:
         fig2, ax2 = plt.subplots()
         ax2.plot(month_names, tilts, marker='o', color="#0A1931", linewidth=3)
         ax2.set_ylabel("Optimal Tilt (°)")
-        ax2.set_title("Optimal Panel Tilt by Month (Your Physics Model)")
+        ax2.set_title("Optimal Panel Tilt by Month ")
         ax2.grid(True, alpha=0.3)
         st.pyplot(fig2)
 
