@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.jpg" width="350" alt="ModelForge Hub Logo"/>
+  <img src="logo.jpg" width="350"/>
 </p>
 
 <h1 align="center">🌌 ModelForge Hub - KZN Solar & Binary Star Systems</h1>
